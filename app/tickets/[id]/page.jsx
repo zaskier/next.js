@@ -1,14 +1,30 @@
+import { notFound } from 'next/navigation';
+
+export const dynamicParams = true;
+
+export async function generateStaticParams() {
+  const res = await fetch(`http://localhost:4000/tickets`);
+  const tickets = await res.json();
+  return tickets.map((ticket) => ({
+    id: ticket.id
+  }));
+}
+
 async function getTicket(id) {
   const res = await fetch(`http://localhost:4000/tickets/${id}`, {
     next: {
-      revalidate: 60 // value 0 disabless cahching time
+      revalidate: 60
     }
   });
+
+  if (!res.ok) {
+    notFound();
+  }
   return res.json();
 }
 
 export default async function TicketDetails({ params }) {
-  const id = params.id; //todo validate if number *add typscript
+  const id = params.id;
   const ticket = await getTicket(id);
 
   return (
@@ -24,6 +40,4 @@ export default async function TicketDetails({ params }) {
       </main>
     </>
   );
-
-  //   <div>{id}</div>;
 }
