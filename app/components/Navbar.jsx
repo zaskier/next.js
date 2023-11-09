@@ -9,12 +9,12 @@ export default function Navbar() {
       <Image
         src={Logo}
         className="ecorp-logo"
-        alt=" ECorp helpdesk logo"
+        alt=" E-Corp helpdesk logo"
         width={70}
         quality={70}
         placeholder="blur"
       />{' '}
-      <h1>EvCorp helpdesk</h1>
+      <h1>E-Corp helpdesk</h1>
       <Link href="/">Dashboard</Link>
       <Link href="/tickets">Tickets</Link>
     </nav>

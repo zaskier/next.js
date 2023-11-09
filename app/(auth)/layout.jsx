@@ -10,12 +10,12 @@ export default function AuthLayout({ children }) {
         <Image
           src={Logo}
           className="ecorp-logo"
-          alt="ECorp helpdesk logo"
+          alt="E sCorp helpdesk logo"
           width={70}
           quality={70}
           placeholder="blur"
         />{' '}
-        <h1>EvCorp helpdesk</h1>
+        <h1>E-Corp helpdesk</h1>
         <Link href="/signup">Sign up</Link>
         <Link href="/login">Log in</Link>
       </nav>
