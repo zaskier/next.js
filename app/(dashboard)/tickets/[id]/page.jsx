@@ -26,7 +26,7 @@ async function getTicket(id) {
 export default async function TicketDetails({ params }) {
   const id = params.id;
   const ticket = await getTicket(id);
-
+  const mailTo = `mailto: ${ticket.user_email}`;
   return (
     <>
       <main className="card my-5">
@@ -34,7 +34,9 @@ export default async function TicketDetails({ params }) {
           <h3>ticket deetails</h3>
         </nav>
         <h3> {ticket.title}</h3>
-        <small>Created by {ticket.user_email}</small>
+        <small>
+          Created by <a href={mailTo}>{ticket.user_email}</a>
+        </small>
         <p> {ticket.body}</p>
         <div className={`pill ${ticket.priority}`}>{ticket.priority} priority</div>
       </main>
