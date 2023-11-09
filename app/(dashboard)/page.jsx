@@ -1,4 +1,5 @@
-import Image from 'next/image';
+/* eslint-disable react/jsx-no-comment-textnodes */
+
 import Link from 'next/link';
 
 export default function Home() {
@@ -6,11 +7,9 @@ export default function Home() {
     <main>
       <h2>Dashboards</h2>
       <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero repellendus tempore,
-        exercitationem odit, quasi doloremque possimus recusandae alias sequi totam soluta natus
-        iure eius, obcaecati sint dolores blanditiis aspernatur quo officia iusto ut. Et, aliquid
-        sed voluptates iste cum totam, facere explicabo, fugit suscipit ratione aspernatur
-        consequuntur ex mollitia quaerat?
+        At E-Corp, we understand that your experience matters. Our Support Dashboard is your go-to
+        hub for managing all aspects of your E-Corp products and services. This webpage features
+        news that all support employees are required to familiarize themselves with.
       </p>
 
       <div className="flex justify-center my-8">
@@ -20,22 +19,23 @@ export default function Home() {
       </div>
 
       <h2>Company Updates</h2>
-
+      {/* todo add clickable dashboard articles */}
       <div className="card">
-        <h3>New member of the web dev team...</h3>
+        <h3>New E-Corp Divisions added to It helpdesk</h3>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, at quam. Dolores omnis
-          possimus quam soluta rerum illo laborum ullam pariatur molestiae, modi beatae corrupti.
+          E-Corp has launched E-Coin, a digital solution to the credit card managed by CTO Scott
+          Knowles. All escalations are already working according to company standards.
         </p>
       </div>
       <div className="card">
-        <h3>New website live!</h3>
+        <h3>New application is now live</h3>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, at quam. Dolores omnis
-          possimus quam soluta rerum illo laborum ullam pariatur molestiae, modi beatae corrupti,
-          assumenda distinctio adipisci, cupiditate minima eum vitae? Similique dicta est facilis
-          debitis, autem temporibus quo repellat illum unde id iste veritatis eveniet, aspernatur
-          enim quas.
+          E-Coin IOS and android app is already avaliable for customers. As E Corp forges ahead with
+          the launch of E-Coin, it solidifies its position as a trailblazer in the ever-evolving
+          landscape of finance and technology. E-Coin is not just a product; it's a testament to E
+          Corp's commitment to pushing the boundaries of innovation. As we step into this new era of
+          digital finance, E-Coin stands as a symbol of the future, where financial transactions are
+          not just transactions but experiences that transcend the conventional norms.
         </p>
       </div>
     </main>

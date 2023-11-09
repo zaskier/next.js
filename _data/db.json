@@ -2,24 +2,31 @@
   "tickets": [
     {
       "id": "1",
-      "title": "Fix the footer links please",
-      "body": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf. Nunc ocarina sagittis quis Majoras Mask. Nulla in metus arcu. Suspendisse potenti. In vel mauris varius, consectetur Zora ipsum eget, Master Sword porttitor urna. Fusce elementum urna elit, eget eleifend velit consectetur eget. Integer vel lobortis ipsum, vitae auctor Ocarina of Time. Donec sed urna dapibus, interdum magna a, eleifend magna. Curabitur tincidunt enim a neque volutpat. Phasellus auctor magna vel nunc pretium, ut volutpat justo tristique. Pellentesque cursus convallis mauris, in tempus enim tincidunt vitae.",
+      "title": "Enabling 2FA for Account Security",
+      "body": "Interested in setting up two-factor authentication (2FA) for an extra layer of security on my E-Corp account. Seeking guidance on the process and best practices.",
       "priority": "low",
-      "user_email": "mario@netninja.dev"
+      "user_email": "mario.balckwood@ecorp.com"
     },
     {
       "id": "2",
-      "title": "Add in a new stylesheet",
-      "body": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf. Nunc ocarina sagittis quis Majoras Mask. Nulla in metus arcu. Suspendisse potenti. In vel mauris varius, consectetur Zora ipsum eget, Master Sword porttitor urna. Fusce elementum urna elit, eget eleifend velit consectetur eget. Integer vel lobortis ipsum, vitae auctor Ocarina of Time. Donec sed urna dapibus, interdum magna a, eleifend magna. Curabitur tincidunt enim a neque volutpat. Phasellus auctor magna vel nunc pretium, ut volutpat justo tristique. Pellentesque cursus convallis mauris, in tempus enim tincidunt vitae.",
-      "priority": "medium",
-      "user_email": "mario@netninja.dev"
+      "title": "Phishing Attempt Alert",
+      "body": "Received a suspicious email claiming to be from E-Corp, asking for sensitive information. Reporting it for investigation and guidance on how to proceed securely.",
+      "priority": "high",
+      "user_email": "mario.montana@ecorp.com"
     },
     {
       "id": "3",
-      "title": "Fix the footer links",
-      "body": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf. Nunc ocarina sagittis quis Majoras Mask. Nulla in metus arcu. Suspendisse potenti. In vel mauris varius, consectetur Zora ipsum eget, Master Sword porttitor urna. Fusce elementum urna elit, eget eleifend velit consectetur eget. Integer vel lobortis ipsum, vitae auctor Ocarina of Time. Donec sed urna dapibus, interdum magna a, eleifend magna. Curabitur tincidunt enim a neque volutpat. Phasellus auctor magna vel nunc pretium, ut volutpat justo tristique. Pellentesque cursus convallis mauris, in tempus enim tincidunt vitae.",
-      "priority": "high",
-      "user_email": "peach@netninja.dev"
+      "title": "Device Security Assessment",
+      "body": "Concerned about the security of the device I use to access E-Corp services. Requesting a security check and recommendations to ensure a secure environment for my transactions.",
+      "priority": "medium",
+      "user_email": "peach.corleone@ecorp.com"
+    },
+    {
+      "id": "4",
+      "title": "Forgotten Password",
+      "body": "I seem to have forgotten my E-Corp account password and am unable to log in. Requesting assistance in resetting my password to regain access to my account securely. My menager is Lester Moore from E-Bank Network",
+      "priority": "low",
+      "user_email": "john.doe@ecorp.com"
     }
   ]
 }

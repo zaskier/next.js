@@ -7,7 +7,14 @@ export default function AuthLayout({ children }) {
   return (
     <>
       <nav>
-        <Image src={Logo} alt=" EvCorp helpdesk logo" width={70} quality={70} placeholder="blur" />{' '}
+        <Image
+          src={Logo}
+          className="ecorp-logo"
+          alt="ECorp helpdesk logo"
+          width={70}
+          quality={70}
+          placeholder="blur"
+        />{' '}
         <h1>EvCorp helpdesk</h1>
         <Link href="/signup">Sign up</Link>
         <Link href="/login">Log in</Link>

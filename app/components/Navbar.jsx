@@ -6,7 +6,14 @@ import Logo from 'public/ev_corp_logo.png';
 export default function Navbar() {
   return (
     <nav>
-      <Image src={Logo} alt=" EvCorp helpdesk logo" width={70} quality={70} placeholder="blur" />{' '}
+      <Image
+        src={Logo}
+        className="ecorp-logo"
+        alt=" ECorp helpdesk logo"
+        width={70}
+        quality={70}
+        placeholder="blur"
+      />{' '}
       <h1>EvCorp helpdesk</h1>
       <Link href="/">Dashboard</Link>
       <Link href="/tickets">Tickets</Link>

@@ -4,7 +4,7 @@
 
 /* base styles */
 body {
-  background: #ebf0fa;
+  background: #130f13;
   @apply text-gray-500 m-8;
 }
 h1,
@@ -31,7 +31,7 @@ nav {
 }
 nav a,
 nav span {
-  @apply text-gray-500;
+  @apply text-gray-900;
 }
 nav a:hover {
   @apply text-black;
@@ -137,4 +137,8 @@ form button {
   height: 50px;
   margin: 20px;
   display: inline-block;
+}
+
+.ecorp-logo {
+  border: solid white 4px;
 }
