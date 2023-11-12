@@ -31,7 +31,7 @@ nav {
 }
 nav a,
 nav span {
-  @apply text-gray-900;
+  @apply text-gray-300;
 }
 nav a:hover {
   @apply text-black;

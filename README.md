@@ -1,5 +1,14 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Before running NEXT_PUBLIC_SUPABASE_URL=https://mhbggikdstmjipfppfvf.supabase.co
+
+Create ".env.local" in main directory and add you credencial and project url from https://supabase.com/
+
+```
+NEXT_PUBLIC_SUPABASE_URL
+NEXT_PUBLIC_SUPABASE_ANON_KEY=
+```
+
 ## Getting Started
 
 First, run the development server:

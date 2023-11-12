@@ -1,13 +1,14 @@
 import Navbar from '@/app/components/Navbar';
+import { createServerComponentClient } from '@supabase/auth-helpers-nextjs';
+import { cookies } from 'next/headers';
 
-export const metadata = {
-  title: 'E-Corp | Tickets'
-};
+export default async function DashboardLayout({ children }) {
+  const supabase = createServerComponentClient({ cookies });
+  const { data } = await supabase.auth.getSession();
 
-export default function DashboardLayout({ children }) {
   return (
     <>
-      <Navbar />
+      <Navbar user={data.session} />
       {children}
     </>
   );
