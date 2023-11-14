@@ -1,6 +1,6 @@
 'use client';
 import { React, useState } from 'react';
-import AuthForm from '../verify/AuthForm';
+import AuthForm from '../AuthForm';
 import { createClientComponentClient } from '@supabase/auth-helpers-nextjs';
 import { useRouter } from 'next/navigation';
 

@@ -3,7 +3,7 @@ import { React, useState } from 'react';
 import { createClientComponentClient } from '@supabase/auth-helpers-nextjs';
 import { useRouter } from 'next/navigation';
 
-import AuthForm from '../verify/AuthForm';
+import AuthForm from '../AuthForm';
 
 export default function Login() {
   const [error, setError] = useState('');

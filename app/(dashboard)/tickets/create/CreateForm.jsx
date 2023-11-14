@@ -26,7 +26,7 @@ export default function CreateForm() {
     const json = await res.json();
 
     if (json.error) {
-      console.log(json.error.message);
+      console.log(error.message);
     }
     if (json.data) {
       router.refresh();
